@@ -1,0 +1,55 @@
+.main-container{
+    min-height: 100vh;
+  }
+  .app-description{
+    color:white;
+    opacity: 60%;
+  }
+  .main-container .MuiCard-root{
+    box-shadow: 5px 10px lightgray;
+  }
+  .select-option{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .dropdown-header{
+  color:white !important;
+  font-size: 16px;;
+  }
+  .custom-tooltip{
+    background-color: white;
+    opacity: 100%;
+    padding: 8px;
+    border:1px solid lightgray;
+  }
+  .plot-card{
+    opacity: 60%;
+   align-items: center;
+    display: inline-flex !important;
+  
+  }
+  
+  .recharts-xAxis text.recharts-label {
+    transform: translate(0, 24px)
+  }
+  .MuiInputBase-root.MuiFilledInput-root, .MuiInputBase-root.MuiFilledInput-root.Mui-focused {
+    background: white !important;
+  }
+  .main-container .MuiFormControl-root .MuiFilledInput-root{
+    height: 40px !important;
+      width: 150px !important;
+      opacity: 60% !important;
+  }
+  
+  .main-container .MuiFormControl-root label {
+    font-size: 18px;
+    color: black;
+    margin-top: 3px;
+  }
+  .error-message{
+    background: white;
+    opacity: 60%;
+    padding: 5px;
+  }
+  
