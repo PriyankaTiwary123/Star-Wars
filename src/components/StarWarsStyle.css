@@ -4,7 +4,7 @@
   }
   .app-description{
     color:white;
-    opacity: 60%;
+    opacity: 0.6
   }
   .main-container .MuiCard-root{
     box-shadow: 5px 10px lightgray;
@@ -15,6 +15,7 @@
     display: flex;
   }
   .dropdown-header{
+  opacity: 0.6;
   color:white !important;
   font-size: 16px;;
   }
@@ -25,7 +26,7 @@
     border:1px solid lightgray;
   }
   .plot-card{
-    opacity: 60%;
+    opacity: 0.6;
    align-items: center;
     display: inline-flex !important;
   
@@ -40,7 +41,7 @@
   .main-container .MuiFormControl-root .MuiFilledInput-root{
     height: 40px !important;
       width: 150px !important;
-      opacity: 60% !important;
+      opacity: 0.6;
   }
   
   .main-container .MuiFormControl-root label {
@@ -50,8 +51,9 @@
   }
   .error-message{
     background: white;
-    opacity: 60%;
+    opacity: 0.6;
     padding: 5px;
   }
+ 
   
   

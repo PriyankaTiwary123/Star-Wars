@@ -83,12 +83,10 @@ export default function ScatterPlot() {
         if (active) {
             return (
                 <div className="custom-tooltip">
-                    <div>
                         <p className="name"><b>Name</b>: {payload[0].payload.z}</p>
                         <p className="gender"><b>Gender</b>: {payload[0].payload.a}</p>
                         <p className="height"><b>Height</b>: {payload[0].value}</p>
                         <p className="mass"><b>Mass</b>: {payload[0].payload.b}</p>
-                    </div>
                 </div>
             );
         }
@@ -96,6 +94,7 @@ export default function ScatterPlot() {
     }
 
     return (
+       <div>{selectedSpeciesObj ?
         <div className="card plot-card">
             <div className="card-body ">
                 {errorMessage ? <ErrorTemplate value="Fetch People data failed" /> :
@@ -123,6 +122,7 @@ export default function ScatterPlot() {
                         </ScatterChart> : <Loading />
                 }
             </div>
+        </div> : ''} 
         </div>
     );
 
