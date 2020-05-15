@@ -53,7 +53,7 @@ export default function SimpleSelect() {
         })
     }
     /** @param{string}  URL
-        @return{promise} resolved promise value
+        @return{promise}  promise value
         */
     const getData = (url) => {
         return new Promise((resolve, reject) => {

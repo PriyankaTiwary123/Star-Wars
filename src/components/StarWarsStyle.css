@@ -1,5 +1,6 @@
 .main-container{
-    min-height: 100vh;
+    height: 100vh;
+    overflow: auto;
   }
   .app-description{
     color:white;
@@ -52,4 +53,5 @@
     opacity: 60%;
     padding: 5px;
   }
+  
   

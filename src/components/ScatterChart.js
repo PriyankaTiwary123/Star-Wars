@@ -35,7 +35,7 @@ export default function ScatterPlot() {
     }, [selectedSpeciesObj])
 
 
-    /** reitreving people's data from multiple people API and setting chartData  */
+    /** retrieving people's data from multiple people API and setting chartData  */
     const loadPeople = () => {
         let peopleResponse = [];
         setLoading(true);
@@ -60,7 +60,7 @@ export default function ScatterPlot() {
         })
     }
      /** @param{string}  URL
-         @return{promise} resolved promise value
+         @return{promise}  promise value
      */
     const getPeopleData = (url) => {
         return new Promise((resolve, reject) => {

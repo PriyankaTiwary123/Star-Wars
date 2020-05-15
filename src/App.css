@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  background-image: url("https://raw.githubusercontent.com/kuuurt13/star-wars-react-fun/master/src/assets/images/star-background.jpg");
   height: 100%; 
+  background-image: url("https://raw.githubusercontent.com/kuuurt13/star-wars-react-fun/master/src/assets/images/star-background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
